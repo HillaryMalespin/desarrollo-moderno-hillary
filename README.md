@@ -93,12 +93,12 @@ class ProductController {
             Se enfoca en la separación de preocupaciones, facilitando el desarrollo y mantenimiento de aplicaciones 
             web complejas. Ofrece flexibilidad y control sobre la estructura de la aplicación. 
     ***Ventajas:***
-            Flexibilidad: Permite personalizar la forma en que se manejan las solicitudes, la lógica de negocio y la presentación. 
-            Facilidad de testing: La separación de capas facilita la creación de pruebas unitarias y de integración. 
-            Comunidad y soporte: Amplia comunidad y documentación, especialmente con ASP.NET Core. 
+            **Flexibilidad:** Permite personalizar la forma en que se manejan las solicitudes, la lógica de negocio y la presentación. 
+            **Facilidad de testing:** La separación de capas facilita la creación de pruebas unitarias y de integración. 
+            **Comunidad y soporte:** Amplia comunidad y documentación, especialmente con ASP.NET Core. 
     ***Desventajas:***
-            Complejidad: Puede resultar complejo para proyectos pequeños o simples debido a su flexibilidad. 
-            Curva de aprendizaje: Requiere tiempo para dominar los conceptos y la estructura del framework. 
+            **Complejidad:** Puede resultar complejo para proyectos pequeños o simples debido a su flexibilidad. 
+            **Curva de aprendizaje:** Requiere tiempo para dominar los conceptos y la estructura del framework. 
 
    ### Spring MVC:
    ***Arquitectura:***
@@ -107,15 +107,15 @@ class ProductController {
             Similar a ASP.NET MVC, Spring MVC promueve la separación de preocupaciones y la modularidad en el desarrollo 
             de aplicaciones Java.
    ***Ventajas:***
-            Productividad: Ofrece características como inyección de dependencias y soporte para desarrollo basado en 
+            **Productividad:** Ofrece características como inyección de dependencias y soporte para desarrollo basado en 
             anotaciones, lo que agiliza el desarrollo.
-            Reutilización de código: Facilita la reutilización de componentes y la creación de aplicaciones modulares.
-            Amplia comunidad y ecosistema: Cuenta con una gran comunidad de desarrolladores Java y un ecosistema rico en 
+            **Reutilización de código:** Facilita la reutilización de componentes y la creación de aplicaciones modulares.
+            **Amplia comunidad y ecosistema:** Cuenta con una gran comunidad de desarrolladores Java y un ecosistema rico en 
             bibliotecas y herramientas.
    ***Desventajas:***
-            Curva de aprendizaje: Similar a ASP.NET MVC, Spring MVC puede tener una curva de aprendizaje pronunciada 
+            **Curva de aprendizaje:** Similar a ASP.NET MVC, Spring MVC puede tener una curva de aprendizaje pronunciada 
             para nuevos usuarios.
-            Overhead: El framework puede agregar complejidad y sobrecarga a proyectos pequeños. 
+            **Overhead:** El framework puede agregar complejidad y sobrecarga a proyectos pequeños. 
 
    ***Comparación:***
             ASP.NET MVC se basa en C# y .NET, mientras que Spring MVC se basa en Java. 
@@ -128,31 +128,33 @@ class ProductController {
             código fuente a lo largo del tiempo. 
  
    ### b. Conceptos clave: repositorio, commit, branch, merge, pull request. 
-            Repositorio: Un repositorio es un lugar donde se guarda y organiza información 
+
+**Repositorio:** Un repositorio es un lugar donde se guarda y organiza información 
             digital, como documentos o archivos informáticos.
 
-            Commit: Se usa para guardar los cambios en el repositorio local. 
+**Commit:** Se usa para guardar los cambios en el repositorio local. 
             Crea un nuevo objeto de confirmación, que actúa como una instantánea 
             de los archivos del proyecto en un momento dado. 
 
-            Branch: Las ramas de Git son un puntero eficaz para las instantáneas de 
+**Branch:** Las ramas de Git son un puntero eficaz para las instantáneas de 
             tus cambios. Cuando quieres 
             añadir una nueva función o solucionar un error, independientemente de su 
             tamaño, generas una nueva 
             rama para alojar estos cambios.
 
-            Merge: Permite tomar las líneas independientes de desarrollo creadas por git 
+**Merge:** Permite tomar las líneas independientes de desarrollo creadas por git 
             branch e integrarlas en una sola rama.
 
-            Pull request: Se usa para cargar contenido del repositorio local a un repositorio 
+**Pull request:** Se usa para cargar contenido del repositorio local a un repositorio 
             remoto. El envío es la forma de transferir confirmaciones desde tu repositorio local 
             a un repositorio remoto.
 
    ### c. Flujos de trabajo comunes (Git Flow, trunk-based, feature branches). 
-            Gitflow: Es un modelo alternativo de ramificación de Git que implica el uso de ramas 
+
+**Gitflow:** Es un modelo alternativo de ramificación de Git que implica el uso de ramas 
             de características y múltiples ramas principales.
 
-            ![Diagrama del gitflow](gitflow.png)
+![Diagrama del gitflow](gitflow.png)
 
             Trunk-based: El desarrollo basado en tronco es una práctica de gestión de control de versiones en la que 
             los desarrolladores fusionan pequeñas actualizaciones de forma frecuente en un “tronco” o rama principal (main).
