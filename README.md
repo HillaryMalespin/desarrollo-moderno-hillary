@@ -405,6 +405,47 @@ Ejemplo de un flujo CI/CD para un sitio web:
 5. **Verificación:** El sistema confirma que el sitio está en línea y funcionando correctamente.  
 
 
+#### d. Proceso seguido para desplegar la Parte 2 del laboratorio
+
+1. **Preparación de los archivos**
+   - Se utilizó el archivo `index.html` provisto por el docente.
+   - Se colocaron en una misma carpeta:
+     - `index.html` (archivo base).
+     - `README.md` (documentación realizada en la Parte 1).
+   - Se verificó en local que al abrir `index.html` en el navegador, se cargara correctamente el contenido del `README.md`.
+
+2. **Creación del repositorio en GitHub**
+   - Como lo mostré anteriormente, se creó un repositorio público en GitHub con el nombre `desarrollo-moderno-hillary`.
+
+3. **Despliegue en Netlify**
+   - Se accedió a [Netlify](https://www.netlify.com/) y se inició sesión con la cuenta de GitHub.
+   - En el panel se seleccionó **"Add new site"** → **"Import an existing project"**.
+   ![Diagrama del gitflow](import-git.jpg)
+   - Se eligió **GitHub** como proveedor y se autorizó el acceso a los repositorios.
+   - Se seleccionó el repositorio `desarrollo-moderno-hillary`.
+   ![desarrollo-moderno](desarrollo-moderno.jpg)
+   - En la configuración:
+     - **Build Command:** vacío (sitio estático).
+     - **Publish Directory:** `/` (raíz del proyecto).
+   - Se presionó **Deploy site** para iniciar el despliegue.
+
+---
+
+## Resultado
+![Resultado](resultado.jpg)
+
+---
+
+## : Yo luego de terminar el laboratorio
+
+    [===       ]  23% café restante
+    ┌─────────────────────────────┐
+    │   (x_x)  "Ya no puedo más"  │
+    │  <)   )╯   💻               │
+    │   /   \                     │
+    └─────────────────────────────┘
+
+
 
 # Fuentes
 https://unirfp.unir.net/revista/ingenieria-y-tecnologia/framework/
