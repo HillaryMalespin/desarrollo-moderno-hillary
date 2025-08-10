@@ -94,9 +94,11 @@ class ProductController {
    ***Arquitectura:***
             ASP.NET MVC es un framework de Microsoft para construir aplicaciones web utilizando el patrón MVC. 
             Se integra con .NET Framework y .NET Core, permitiendo desarrollo multiplataforma. 
+            
     ***Enfoque:***
             Se enfoca en la separación de preocupaciones, facilitando el desarrollo y mantenimiento de aplicaciones 
             web complejas. Ofrece flexibilidad y control sobre la estructura de la aplicación. 
+            
     ***Ventajas:***
             **Flexibilidad:** Permite personalizar la forma en que se manejan las solicitudes, la lógica de negocio y la presentación. 
             **Facilidad de testing:** La separación de capas facilita la creación de pruebas unitarias y de integración. 
