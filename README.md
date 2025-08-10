@@ -123,7 +123,9 @@ class ProductController {
    
    Productividad: Ofrece características como inyección de dependencias y soporte para desarrollo basado en 
    anotaciones, lo que agiliza el desarrollo.
+   
    Reutilización de código: Facilita la reutilización de componentes y la creación de aplicaciones modulares.
+   
    Amplia comunidad y ecosistema: Cuenta con una gran comunidad de desarrolladores Java y un ecosistema rico en 
    bibliotecas y herramientas.
          
@@ -132,6 +134,7 @@ class ProductController {
    
    Curva de aprendizaje: Similar a ASP.NET MVC, Spring MVC puede tener una curva de aprendizaje pronunciada 
    para nuevos usuarios.
+   
    Overhead: El framework puede agregar complejidad y sobrecarga a proyectos pequeños. 
 
    ***Comparación:***
